@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+/* HEADER */
+
+* {
+    color: #664a46;
+}
+
+#header-tabs {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dc9f8d;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.material-symbols-outlined {
+    margin-right: 1rem;
+}
+
+/* MAIN */
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+    font-size: 1.4;
+}
+
+.pictures {
+    width: 100%;
+}
+
+.pictures-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-left: 60px;
+    font-size: 1.4rem;
+}
+
+.products-pics {
+    margin-bottom: 25px;
+}
+
+.price {
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+}
+
+.hearts {
+    position: relative;
+    overflow: visible;
+    top: -77.3%;
+    left: 33%;
+}
+
+.bag {
+    position: relative;
+    overflow: visible;
+    top: -77%;
+    left: 33%;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f5e9df;
+    padding: 40px;
+    border-radius: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+#footer-info {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 0%;
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#copyright {
+    display: flex;
+    align-items: center;
+    color: #664a46;
+}
+
+#copysymbol {
+    margin-right: 0;
+    padding-right: 5px;
+}
