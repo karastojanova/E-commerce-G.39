@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+}
+
+/* HEADER */
+
+* {
+  color: #664a46;
+}
+
+#header-tabs {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dc9f8d;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.material-symbols-outlined {
+  margin-right: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f5e9df;
+  padding: 40px;
+  border-radius: 1000px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+#footer-info {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0%;
+  list-style: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#copyright {
+  display: flex;
+  align-items: center;
+  color: #664a46;
+}
+
+#copysymbol {
+  margin-right: 0;
+  padding-right: 5px;
+}
+
+/* Here I (Daria) put my 4 images into the grid template columns
+that repeat two times (2 by 2)*/
+
+/* I need help to make it so that the images dont jump down if the page is resized*/
+.container-product-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding-top: 5vw;
+  padding-left: 30px;
+}
+
+.smiley-plates {
+  width: 100%;
+}
+
+.fix-grid-pls {
+  font-size: 0px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Here I'm starting to work with the right side of the page*/
+
+#specific-product-name {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5vw;
+  padding-left: 30px;
+  margin: 0px;
+  font-size: 1.4rem;
+}
+
+#specific-product-price {
+  font-family: "Courier Prime", monospace;
+  margin: 0px;
+  padding-left: 30px;
+  font-size: 1rem;
+}
+
+#specific-product-sizes {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #858585;
+  margin: 0px;
+  padding-left: 30px;
+  padding-top: 10%;
+}
+
+/* Here I am styling the boxes that display the sizes*/
+/* I need help to fix the sizes buttons to have the same
+margin to the left and right*/
+
+.sizes-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sizes-box {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 3vh;
+  width: 25%;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #f5e9df;
+}
+
+/* Styling the Add to cart button*/
+
+.add-to-cart-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #dc9f8d;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#add-to-cart-text {
+  color: white;
+}
+
+/* Here I am styling the description of the product text*/
+
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.description-text {
+  flex: 1;
+  margin-top: 5vh;
+}
+
+#description-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #3a3a3a;
+}
+
+#description-product {
+  font-family: "Courier Prime", monospace;
+  font-size: 1rem;
+  margin-right: 5vh;
+  color: #858585;
+}
+
+#description-materials {
+  font-family: "Courier Prime", monospace;
+  font-size: 1rem;
+  margin-right: 5vh;
+  margin: 0;
+  color: #858585;
+}
+
+#description-care {
+  font-family: "Courier Prime", monospace;
+  font-size: 1rem;
+  margin-right: 5vh;
+  color: #858585;
+}
+
+/* Other products you may like section*/
+
+.other-products-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 20vh;
+  margin-left: 30px;
+  padding-bottom: 1vh;
+}
+
+.other-products-photos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.other-products-photos img {
+  max-width: calc(57%);
+  height: auto;
+  margin-bottom: 10px;
+  padding: 30px;
+  padding-top: 0;
+}
