@@ -8,25 +8,12 @@ body {
     color: #664a46;
 }
 
-body{
-    align-content: center;
-}
-
 #header-tabs {
     font-family: 'Montserrat', sans-serif;
     list-style: none;
     padding: 0;
     display: flex;
     flex-direction: row;
-}
-
-#logo-wrapper{
-   display: inline-block;
-   align-self: center;
-}
-
-#logo{
-   text-align: center;
 }
 
 a {
@@ -62,7 +49,6 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1,5rem;
-    padding-left: 4rem;
     padding-top: 3rem;
 }
 
