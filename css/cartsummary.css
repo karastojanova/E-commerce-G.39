@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+/* HEADER */
+
+* {
+    color: #664a46;
+}
+
+#header-tabs {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dc9f8d;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.material-symbols-outlined {
+    margin-right: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f5e9df;
+    padding: 40px;
+    border-radius: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+#footer-info {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 0%;
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#copyright {
+    display: flex;
+    align-items: center;
+    color: #664a46;
+}
+
+#copysymbol {
+    margin-right: 0;
+    padding-right: 5px;
+}
+
+.cart-summary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-width: 10%;
+    align-self: center;
+    align-content: center;
+    margin-top: 0%;
+    margin-bottom: 5vh;
+    gap: 5%;
+}
+.container{
+    background-color: #F5E9DF;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+}
+/*ask someone how to center those button ishes*/
+.product-img{
+    width: 50%;
+    padding-left: 50%;
+
+}
+
+.smiley-plate-text{
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.happiness-mug-text{
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 0;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.cart-button{
+    background-color: #DC9F8D;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    margin-left: 20%;
+    font-size: 20px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+.price{
+    font-family: 'Courier Prime', monospace;
+}
