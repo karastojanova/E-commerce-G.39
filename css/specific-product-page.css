@@ -132,19 +132,24 @@ margin to the left and right*/
   justify-content: space-around;
 }
 
-.sizes-box {
+
+#size-button {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   margin-top: 3vh;
-  width: 25%;
+  padding: 2vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  width: 100%;
   text-align: center;
   border-radius: 50px;
   background-color: #f5e9df;
+  border-color: beige;
 }
 
 /* Styling the Add to cart button*/
 
-.add-to-cart-button {
+#add-to-cart-button {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   text-align: center;
@@ -155,11 +160,12 @@ margin to the left and right*/
   margin-top: 5vh;
   margin-left: 30px;
   margin-right: 30px;
+  border-color: #dc9f8d;
+  width: 92%;
+  color: white;
+  padding: 2vh; 
 }
 
-#add-to-cart-text {
-  color: white;
-}
 
 /* Here I am styling the description of the product text*/
 
