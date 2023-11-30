@@ -27,7 +27,7 @@ li {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #dc9f8d;
 }
 
@@ -92,6 +92,7 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 #footer-info {
