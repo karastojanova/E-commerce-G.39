@@ -39,7 +39,6 @@ header {
     margin-right: 1rem;
 }
 
-
 #spoppingbag {
     position: relative;
     display: inline-block;
@@ -63,7 +62,10 @@ header {
     font-weight: bold;
   }
 
-/* MAIN */
+#logo {
+    margin-right: 180px;
+}
+
 
 /* Left side MAIN */
 
@@ -173,6 +175,7 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 #footer-info {
