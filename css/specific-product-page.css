@@ -39,6 +39,29 @@ header {
   margin-right: 1rem;
 }
 
+#spoppingbag {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#number {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: #A2BBB7;
+  display: inline;
+  border-radius: 100px;
+  padding: 3px;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
 /* FOOTER */
 
 footer {
@@ -149,7 +172,7 @@ margin to the left and right*/
 
 /* Styling the Add to cart button*/
 
-#add-to-cart-button {
+#change-button {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   text-align: center;
