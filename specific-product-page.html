@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
       rel="stylesheet"
     />
+    <script src="js/spec-prod-page.js" defer></script>
   </head>
 
   <body>
@@ -43,7 +44,9 @@
         </a>
       </ul>
 
-      <h1>GLINA</h1>
+      <a href="index.html">
+        <h1 id="logo">GLINA</h1>
+      </a>
 
       <div class="flex-container">
         <div>
@@ -58,8 +61,11 @@
           <span class="material-symbols-outlined"> favorite </span>
         </div>
 
-        <div>
+        <div id="spoppingbag">
           <span class="material-symbols-outlined"> shopping_bag </span>
+          <div class="overlay">
+            <p id="number">1</p>
+          </div>
         </div>
       </div>
     </header>
@@ -106,7 +112,7 @@
         </div>
 
         <div class="add-to-cart-box">
-          <input type="button" id="add-to-cart-button" value="Add to cart"></input>
+          <button id="change-button">Add to cart</button>
         </div>
 
         <div class="description-container">

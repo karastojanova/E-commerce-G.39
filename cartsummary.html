@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GLINA</title>
-    <link rel="stylesheet" href="CSS/cartsummary.css">
+    <link rel="stylesheet" href="css/cartsummary.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,9 @@
         </a>
       </ul>
       
-      <h1>GLINA</h1>
+      <a href="index.html">
+        <h1 id="logo">GLINA</h1>
+      </a>
       
       <div class="flex-container">
         <div>
@@ -59,10 +61,11 @@
         </div>
 
 
-        <div>
-          <span class="material-symbols-outlined">
-          shopping_bag
-          </span>
+        <div id="spoppingbag">
+          <span class="material-symbols-outlined"> shopping_bag </span>
+          <div class="overlay">
+            <p id="number">2</p>
+          </div>
         </div>
       </div>
     
@@ -74,12 +77,12 @@
             <h2>CART SUMMARY</h2>
             <h3>IN YOUR CART</h3> 
             <div class="cart-summary">
-                <img class="product-img" src="images/smileyplate.webp" alt="The Smiley Plate product image">
+                <img class="product-img" src="specific-product-img/IMG_63083_1296x.heic.jpeg" alt="The Smiley Plate product image">
                  <div class="smiley-plate-text">
                     <p>SMILEY PLATE</p>
                     <p class="price">200 kr</p>  
                 </div>
-                <img class="product-img" src="images/smileymug.heic.webp" alt="The Happiness Mug product image">
+                <img class="product-img" src="specific-product-img/IMG_2815_1296x.heic.jpeg" alt="The Happiness Mug product image">
                 <div class="happiness-mug-text">
                      <p>HAPPINESS MUG</p>
                      <p class="price">190 kr</p>
@@ -88,14 +91,18 @@
                 
             </div>
             <div>
+              <a href="product-page.html">
                 <button class="cart-button"> 
                     Continue Shopping
                 </button>
+              </a>
             </div>
             <div>
+              <a href="customer-info.html">
                 <button class="cart-button">
                     Proceed to payment
                 </button>
+              </a>
             </div>
         </div>
     </main>

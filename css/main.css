@@ -47,10 +47,37 @@ header {
     margin-right: 1rem;
 }
 
+#spoppingbag {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  #number {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: #A2BBB7;
+    display: inline;
+    border-radius: 100px;
+    padding: 3px;
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+
+#logo {
+    margin-right: 180px;
+}
+
 /* Main*/
 
 .home-img{
-    width: 100vw;
+    width: 100%;
 }
 
 .categories-home {
@@ -85,7 +112,7 @@ header {
 }
 
 .best-table-img {
-    width: 50vw;
+    width: 100%;
 }
 
 /* FOOTER */
@@ -100,6 +127,7 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 #footer-info {
