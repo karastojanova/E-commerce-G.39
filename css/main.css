@@ -27,7 +27,7 @@ li {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #dc9f8d;
 }
 
@@ -39,6 +39,9 @@ header {
     margin-right: 1rem;
 }
 
+#logo {
+    margin-right: 180px;
+}
 /* Main*/
 
 .home-img{

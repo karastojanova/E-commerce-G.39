@@ -39,6 +39,10 @@ header {
   margin-right: 1rem;
 }
 
+#logo {
+  margin-right: 180px;
+}
+
 /* FOOTER */
 
 footer {
@@ -73,6 +77,8 @@ footer {
   padding-right: 5px;
 }
 
+
+/* MAIN */
 /* Here I (Daria) put my 4 images into the grid template columns
 that repeat two times (2 by 2)*/
 
