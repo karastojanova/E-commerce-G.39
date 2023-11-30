@@ -45,7 +45,7 @@ header {
 /* Main*/
 
 .home-img{
-    width: 100vw;
+    width: 100%;
 }
 
 .categories-home {
@@ -80,7 +80,7 @@ header {
 }
 
 .best-table-img {
-    width: 50vw;
+    width: 100%;
 }
 
 /* FOOTER */
