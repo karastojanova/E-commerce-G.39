@@ -144,3 +144,19 @@ h2{
 .price{
     font-family: 'Courier Prime', monospace;
 }
+
+/* ANIMATION */
+
+@keyframes colorChange {
+   0% { color: white;}
+   25% { color: #DC9F8D;}
+   50% { color: #664a46;}
+   75% { color: #DC9F8D;}
+   100% { color: white;}
+}
+
+#star {
+    animation: colorChange 5s linear infinite;
+    font-size: 5rem;
+}
+
