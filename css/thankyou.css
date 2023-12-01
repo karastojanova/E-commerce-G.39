@@ -105,10 +105,12 @@ footer {
     align-self: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 .happiness-mug-text{
     align-self: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 h2{
     text-align: center;
     margin-top: 0%;
@@ -116,6 +118,7 @@ h2{
     margin-bottom: 5%;
     font-family: 'Montserrat', sans-serif;
 }
+
 .emailsent{
     text-align: center;
     padding-top: 2%;
@@ -125,6 +128,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
+
 .cart-button{
     background-color: #DC9F8D;
     padding: 2%;
@@ -136,6 +140,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
 }
+
 .price{
     font-family: 'Courier Prime', monospace;
 }
