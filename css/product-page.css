@@ -116,7 +116,7 @@ figcaption {
     left: 33%;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .pictures-container {
         grid-template-columns: 1fr 1fr;
         position: absolute;
