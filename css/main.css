@@ -14,9 +14,10 @@ body {
     background-color: #dc9f8d;
     color: #664a46;
     padding: 0;
-    font: 18px;
+    font: 20px;
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .dropdown-content {
@@ -60,7 +61,8 @@ li {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
     background-color: #dc9f8d;
