@@ -116,6 +116,43 @@ figcaption {
     left: 33%;
 }
 
+@media screen and (max-width: 350px) {
+    .pictures-container {
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+    }
+
+    figcaption {
+        padding-left: 48px;
+        font-size: 0.8rem;
+    }
+
+    .price {
+        font-size: 0.7rem;
+    }
+
+    .bag, .hearts {
+        visibility: hidden;
+    }
+
+    .pictures {
+        width: 140px;
+        height: 150px;
+    }
+
+    .products-pics {
+        margin-bottom: 33px;
+        height: 169px;
+        margin-top: 30px;
+        width: 140px;
+    }
+
+    h2 {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+}
+
 /* FOOTER */
 
 footer {
@@ -131,7 +168,7 @@ footer {
     margin-bottom: 30px;
 }
 
-#footer-info {
+#footer-info-one, #footer-info-two {
     font-family: 'Montserrat', sans-serif;
     padding-left: 0%;
     list-style: none;
@@ -148,4 +185,25 @@ footer {
 #copysymbol {
     margin-right: 0;
     padding-right: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    #footer-info-one {
+        margin-left: 0;
+        margin-right: 0;
+        order: -1;
+        line-height: 22px;
+    } 
+    
+    #footer-info-two {
+        order: -1;
+        line-height: 22px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        margin-top: 1475px;
+    }
 }

@@ -58,7 +58,7 @@ footer {
     margin-bottom: 30px;
 }
 
-#footer-info {
+#footer-info-one, #footer-info-two {
     font-family: 'Montserrat', sans-serif;
     padding-left: 0%;
     list-style: none;
@@ -76,6 +76,28 @@ footer {
     margin-right: 0;
     padding-right: 5px;
 }
+
+@media screen and (max-width: 400px) {
+    #footer-info-one {
+        margin-left: 0;
+        margin-right: 0;
+        order: -1;
+        line-height: 22px;
+    } 
+    
+    #footer-info-two {
+        order: -1;
+        line-height: 22px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+    }
+}
+
+/* MAIN */
 
 .cart-summary{
     display: grid;
