@@ -100,7 +100,6 @@ footer {
   padding-right: 5px;
 }
 
-
 /* MAIN */
 /* Here I (Daria) put my 4 images into the grid template columns
 that repeat two times (2 by 2)*/
@@ -179,6 +178,10 @@ margin to the left and right*/
 
 /* Styling the Add to cart button*/
 
+.add-to-cart-box {
+  
+}
+
 #change-button {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -191,11 +194,18 @@ margin to the left and right*/
   margin-left: 30px;
   margin-right: 30px;
   border-color: #A2BBB7;
-  width: 92%;
+  width: 60%;
   color: white;
   padding: 2vh; 
+  transition: width 0.5s, height 0.5s;
 }
 
+/* ANIMATING add-to-cart-button (change-button) */
+
+#change-button:hover {
+  width: 92%;
+  font-weight: bold;
+}
 
 /* Here I am styling the description of the product text*/
 
