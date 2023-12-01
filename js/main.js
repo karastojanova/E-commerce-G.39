@@ -1,10 +1,8 @@
-const overlayLeft = document.getElementById ("overlay-left");
-const productsLink = document.getElementById ("products");
+const dropdown = document.querySelector('.dropdown');
 
-productsLink.addEventListener("mouseover", function(event){
- overlayLeft.style.display = "block";
+dropdown.addEventListener('mouseenter', function() {
+    this.querySelector('.dropdown-content').style.display = 'block';
 });
-
-productsLink.addEventListener("mouseout", function (event){
-    overlayLeft.style.display = "none";
+dropdown.addEventListener('mouseleave', function(){
+    this.querySelector('.dropdown-content').style.display = 'none';
 });
