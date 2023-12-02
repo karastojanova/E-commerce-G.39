@@ -28,9 +28,17 @@
   <body>
     <header>
       <ul id="header-tabs">
-        <a href="#">
-          <li>Products</li>
-        </a>
+
+        <li class="dropdown">
+          <button class="dropbtn"> Products</button>
+          <div class ="dropdown-content">
+            <a href="product-page.html">All Products</a>
+            <a href="#">Mugs</a>
+            <a href="#">Bowls</a>
+            <a href="#">Plates</a>
+            <a href="#">Decorative</a>
+          </div>
+        </li>
 
         <a href="#">
           <li>Workshops</li>
@@ -63,9 +71,11 @@
         </div>
 
         <div id="spoppingbag">
+          <a href="cartsummary.html">
           <span class="material-symbols-outlined"> shopping_bag </span>
           <div class="overlay">
             <p id="number">1</p>
+          </a>
           </div>
         </div>
       </div>
