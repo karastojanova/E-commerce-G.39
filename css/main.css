@@ -104,10 +104,23 @@ body {
     color: #FFFFFF;
 }
 
-.price{
+.price1{
+    padding-left: 15%; 
+  padding-top: 10%;
+  }
+  
+  #price2{
+    display: none;
   padding-left: 15%; 
   padding-top: 10%;
-}
+  }
+  
+  #addeditem{
+    display: none;
+    width: 20vh;
+    padding: 15%;
+  }
+
 * {
     color: #664a46;
 }
