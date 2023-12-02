@@ -4,7 +4,20 @@ body {
 
 /* HEADER */
 
+.smiley-dropdown{
+    width: 20vh;
+    padding: 15%;
 
+}
+
+.cart-summary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    align-content: center;
+    column-width: auto;
+    gap: 5%;
+}
 
 .dropdown{
     position: relative;
@@ -40,6 +53,58 @@ body {
     display: block;
 }
 
+/* this is the cart dropdown menu CSS*/
+
+.cartdown{
+    position: relative;
+    float: right; 
+    margin-right: 1rem;
+}
+.cartbtn{
+    background-color: #dc9f8d;
+    color: #664a46;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.cartdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    z-index: 1;
+    right: 0;
+}
+.cartdown-content a {
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.cartdown:hover .cartdown-content{
+    display: block;
+}
+
+.cart-button{
+    background-color: #DC9F8D;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    margin-left: 20%;
+    font-size: 16px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.price{
+    padding: 15%;
+}
 * {
     color: #664a46;
 }
@@ -70,6 +135,9 @@ header {
 
 .flex-container {
     display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 0;
 }
 
 .material-symbols-outlined {
@@ -100,7 +168,8 @@ header {
   }
 
 #logo {
-    margin-right: 180px;
+    
+    text-align: center;
 }
 
 /* Main*/
