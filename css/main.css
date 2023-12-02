@@ -4,21 +4,6 @@ body {
 
 /* HEADER */
 
-.smiley-dropdown{
-    width: 20vh;
-    padding: 15%;
-
-}
-
-.cart-summary{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-self: center;
-    align-content: center;
-    column-width: auto;
-    gap: 5%;
-}
-
 .dropdown{
     position: relative;
     display: inline-block;
@@ -54,6 +39,23 @@ body {
 }
 
 /* this is the cart dropdown menu CSS*/
+
+.smiley-dropdown{
+    width: 20vh;
+    padding: 15%;
+
+}
+
+
+
+.cart-summary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    align-content: center;
+    column-width: auto;
+    gap: 5%;
+}
 
 .cartdown{
     position: relative;
@@ -103,7 +105,8 @@ body {
 }
 
 .price{
-    padding: 15%;
+  padding-left: 15%; 
+  padding-top: 10%;
 }
 * {
     color: #664a46;
