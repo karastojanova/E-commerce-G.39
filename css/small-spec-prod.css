@@ -73,10 +73,10 @@
   
   #specific-product-sizes {
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #858585;
     margin: 0px;
-    padding-left: 330px;
+    padding-left: 415px;
     padding-top: 7vh;
   }
 
@@ -92,7 +92,7 @@
     font-size: 1rem;
     margin-top: 3vh;
     padding: 2vh;
-    margin-left: 230px;
+    margin-left: 185px;
     padding-left: 1px;
     padding-right: 1px;
     width: 75%;
@@ -118,7 +118,7 @@
     margin-left: 330px;
     margin-right: 30px;
     border-color: #A2BBB7;
-    width: 49%;
+    width: 42%;
     color: white;
     padding: 2vh; 
     animation: none;
@@ -142,14 +142,14 @@
   
   #description-product {
     font-family: "Courier Prime", monospace;
-    font-size: 1rem;
+    font-size: 2rem;
     margin-right: 5vh;
     color: #858585;
   }
   
   #description-materials {
     font-family: "Courier Prime", monospace;
-    font-size: 1rem;
+    font-size: 2rem;
     margin-right: 5vh;
     margin: 0;
     color: #858585;
@@ -157,7 +157,7 @@
   
   #description-care {
     font-family: "Courier Prime", monospace;
-    font-size: 1rem;
+    font-size: 2rem;
     margin-right: 5vh;
     color: #858585;
   }
