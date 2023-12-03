@@ -146,8 +146,9 @@ body {
 #mobileicons{
     justify-self: center;
     display: none;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 
 
 }
@@ -184,20 +185,12 @@ Ask Evelin why the fixed position is so weird*/
         display: flex;
         
     }
-
-    .categories-home{
-        grid-template-rows: repeat(2, 1fr);
-        
-    }
-    
 }
 
 @media screen and (min-width: 400px){
      .bottomicon{
         display: none;
     }
-    
-    
 }
 
 
