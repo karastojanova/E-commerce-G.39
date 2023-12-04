@@ -48,7 +48,11 @@ body {
     display: block;
 }
 
-
+@media screen and (max-width:400px){
+    .dropdown-content{
+        margin-top: 30px;
+    }
+}
 
 /*this is the mobile hamburger menu*/
 .phonedown{
@@ -334,11 +338,14 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 1,5rem;
     padding-top: 3rem;
+    
 }
 
 .category-img {
     width: 70%;
     border-radius: 50%;
+    align-self: center;
+    justify-self: center;
 }
 
 .best-table-grid {
