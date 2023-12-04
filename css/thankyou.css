@@ -258,6 +258,9 @@ header {
   }
 
 #logo {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
     margin-right: 180px;
     font-family: 'Mauline', sans-serif;
                                                 
@@ -285,7 +288,10 @@ header {
     .cart-button{
         font-size: 16px;
     }
-
+=======
+    
+    text-align: center;
+>>>>>>> 3d7652701a4bb111ad2b594e4f65dfb1530469b4
 }
 
 /* FOOTER */
@@ -329,7 +335,9 @@ footer {
         order: -1;
         line-height: 22px;
     } 
-
+>>>>>>> 5fa6ce18f7881169a285060cc5fc0d72fe9fa2d5
+    
+    text-align: center;
 }
 /* MAIN */
 

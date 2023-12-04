@@ -1,11 +1,14 @@
 /* HEADER*/
 /* HEADER */
 
+<<<<<<< HEAD
+=======
 #logo{
   font-family: 'Mauline', sans-serif;
                                                 
 }
 
+>>>>>>> 5fa6ce18f7881169a285060cc5fc0d72fe9fa2d5
 #hamburger{
   display: none;
  width: 100px;
@@ -203,6 +206,10 @@ Ask Evelin why the fixed position is so weird*/
       display: none;
   }
 }
+<<<<<<< HEAD
+=======
+
+
 
 
 a {
@@ -260,6 +267,7 @@ header {
   
   text-align: center;
 }
+>>>>>>> 5fa6ce18f7881169a285060cc5fc0d72fe9fa2d5
 
 
 
