@@ -122,7 +122,10 @@
     color: white;
     padding: 2vh; 
     animation: none;
+    transition: none;
+    
   }
+  
 
   /* description text*/
   
@@ -187,3 +190,4 @@
     padding-top: 0;
 }
   
+
