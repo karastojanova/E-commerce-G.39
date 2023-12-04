@@ -3,7 +3,6 @@ body {
 }
 
 /* HEADER */
-/* HEADER */
 
 #hamburger{
     display: none;
@@ -120,13 +119,13 @@ body {
     padding-left: 15%; 
   padding-top: 10%;
   }
-  
+
   #price2{
     display: none;
   padding-left: 15%; 
   padding-top: 10%;
   }
-  
+
   #addeditem{
     display: none;
     width: 20vh;
@@ -180,7 +179,7 @@ Ask Evelin why the fixed position is so weird*/
    header {
     position: fixed;
    }
-   
+
     #header-tabs{
         display: none;
     }
@@ -193,7 +192,7 @@ Ask Evelin why the fixed position is so weird*/
     }
     #mobileicons{
         display: flex;
-        
+
     }
 }
 
@@ -238,14 +237,14 @@ header {
     position: relative;
     display: inline-block;
   }
-  
+
   .overlay {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
   }
-  
+
   #number {
     font-family: "Montserrat", sans-serif;
     color: white;
@@ -258,8 +257,8 @@ header {
   }
 
 #logo {
-    margin-right: 180px;
-    font-family: 'Mauline', sans-serif
+
+    text-align: center;
 }
 
 
@@ -269,7 +268,91 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 60px;
+    margin: 0;
+    margin-top: 30px;
 }
+
+label, input {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    margin-left: 150px;
+}
+
+input {
+    margin-bottom: 17px;
+}
+
+.main-p {
+    font-size: 1.1rem;
+    background-color: #F5E9DF;
+    padding: 5px;
+    border-radius: 50px;
+    width: 70%;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 60px;
+}
+
+.payment {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #dc9f8d;
+    padding: 5px;
+    border-radius: 30px;
+    width: 40%;
+}
+
+#pay-button {
+    background-color: #dc9f8d;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 1rem;
+    margin-right: 190px;
+}
+
+@media screen and (max-width: 400px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .picture {
+        order: -1;
+    }
+
+    #pay-button {
+        margin-right: 0;
+    }
+
+    label, input {
+        margin-left: 50px;
+    }
+
+    .main-p {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 27px;
+        margin-top: 20px;
+        border-radius: 0;
+    }
+
+    .payment {
+        width: 60%;
+    }
+}
+
 
 /* Right side MAIN */
 
@@ -385,7 +468,7 @@ footer {
         order: -1;
         line-height: 22px;
     } 
-    
+
     #footer-info-two {
         order: -1;
         line-height: 22px;
