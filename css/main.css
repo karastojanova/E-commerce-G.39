@@ -5,11 +5,10 @@ body {
 /* HEADER */
 
 #hamburger{
-    display: none;
    width: 100px;
    position: absolute;
    padding-left: 25px;
-   padding-top: 8px;
+   padding-top: 30px;
 }
 #hamburgerimg{
     width: 25px;
@@ -171,26 +170,23 @@ body {
 /*media query for header
 Ask Evelin why the fixed position is so weird*/
 @media screen and (max-width: 400px){
-   #hamburger{
-    display: block;
-   }
-
-   header {
-    position: fixed;
-   }
-   
     #header-tabs{
         display: none;
     }
     #logo{
-        padding-left: 140px;
-        padding-right: 70px;
+        padding-left: 110px;
+        padding-right: 50px;
     }
     .webicons{
         display: none;
     }
     #mobileicons{
         display: flex;
+        
+    }
+
+    .categories-home{
+        grid-template-rows: repeat(2, 1fr);
         
     }
     
@@ -200,6 +196,7 @@ Ask Evelin why the fixed position is so weird*/
      .bottomicon{
         display: none;
     }
+    
     
 }
 
@@ -215,7 +212,7 @@ li {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -265,20 +262,25 @@ header {
 /* Main*/
 
 .home-img{
-    width: 100vw;
+    width: 100%;
+}
+
+.categories-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1,5rem;
+    padding-top: 3rem;
 }
 
 .category-img {
     width: 70%;
     border-radius: 50%;
-    justify-self: center;
-    border: solid #A2BBB7;
 }
 
 .best-table-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-top: 20px;
+    padding-top: 3rem;
 }
 
 .best-table-container{
@@ -297,35 +299,6 @@ header {
 .best-table-img {
     width: 100%;
 }
-
-/* media for main home page*/
-
-@media screen and (max-width: 400px){
-    .home-img{
-        padding-top: 80px;
-    }
-
-    .categories-home{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-top: 10px;
-        gap: 10px;
-    } 
-}
-
-@media screen and (min-width: 400px){
-
-.categories-home{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding-top: 30px ;
-    padding-bottom: 20px;
-    justify-content: space-evenly;
-    
-}
-}
-
-
 
 /* FOOTER */
 
