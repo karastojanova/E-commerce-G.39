@@ -236,18 +236,10 @@ Ask Evelin why the fixed position is so weird*/
         display: flex;
         
     }
-<<<<<<< HEAD
-    
-=======
 
-    .categories-home{
-        grid-template-rows: repeat(2, 1fr);
-        
-    }
     .hamburgerbtn{
         display: block;
     }
->>>>>>> aaaa44199427195ccea4dfd359289248697a851f
 }
 
 @media screen and (min-width: 400px){
@@ -332,10 +324,6 @@ header {
     }
 }
 
-.categories-home{
-    padding-top: 1rem;
-}
-
 .category-img {
     border: solid #A2BBB7;
     width: 70%;
@@ -345,7 +333,7 @@ header {
 .best-table-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-top: 2rem;
+    padding-top: 5px;
 }
 
 .best-table-container{
@@ -357,7 +345,6 @@ header {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     color: white;
-    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -369,13 +356,17 @@ header {
 .categories-home{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }}
 
 @media screen and (min-width: 400px){
     .categories-home{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        padding-top: 40px;
+        padding-bottom: 40px;
  }}
 
 
