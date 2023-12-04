@@ -241,10 +241,6 @@ Ask Evelin why the fixed position is so weird*/
         
     }
 
-    .categories-home{
-        grid-template-rows: repeat(2, 1fr);
-        
-    }
     .hamburgerbtn{
         display: block;
     }
@@ -323,7 +319,6 @@ header {
 /* Main*/
 
 
-
 .home-img{
     width: 100%;
 }
@@ -333,6 +328,7 @@ header {
     }
 }
 
+<<<<<<< HEAD
 .categories-home {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -341,7 +337,10 @@ header {
     
 }
 
+=======
+>>>>>>> df75a443fb16e4ab596dca56ca38f6ee2b384814
 .category-img {
+    border: solid #A2BBB7;
     width: 70%;
     border-radius: 50%;
     align-self: center;
@@ -351,7 +350,7 @@ header {
 .best-table-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-top: 3rem;
+    padding-top: 5px;
 }
 
 .best-table-container{
@@ -363,13 +362,31 @@ header {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     color: white;
-    padding-top: 10px;
     padding-left: 10px;
 }
 
 .best-table-img {
     width: 100%;
 }
+
+@media screen and (max-width: 400px){
+.categories-home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}}
+
+@media screen and (min-width: 400px){
+    .categories-home{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 40px;
+        padding-bottom: 40px;
+ }}
+
+
 
 /* FOOTER */
 
