@@ -3,6 +3,7 @@ body {
 }
 
 /* HEADER */
+/* HEADER */
 
 #hamburger{
   display: none;
@@ -257,10 +258,10 @@ header {
 }
 
 #logo {
-  
-  text-align: center;
+  margin-right: 180px;
+  font-family: 'Mauline', sans-serif;
+                                                
 }
-
 /* FOOTER */
 
 footer {
@@ -331,6 +332,8 @@ that repeat two times (2 by 2)*/
 .smiley-plates {
   width: 100%;
 }
+
+
 
 .fix-grid-pls {
   font-size: 0px;

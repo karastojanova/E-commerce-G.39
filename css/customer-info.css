@@ -119,13 +119,13 @@ body {
     padding-left: 15%; 
   padding-top: 10%;
   }
-  
+
   #price2{
     display: none;
   padding-left: 15%; 
   padding-top: 10%;
   }
-  
+
   #addeditem{
     display: none;
     width: 20vh;
@@ -179,7 +179,7 @@ Ask Evelin why the fixed position is so weird*/
    header {
     position: fixed;
    }
-   
+
     #header-tabs{
         display: none;
     }
@@ -192,7 +192,7 @@ Ask Evelin why the fixed position is so weird*/
     }
     #mobileicons{
         display: flex;
-        
+
     }
 }
 
@@ -237,14 +237,14 @@ header {
     position: relative;
     display: inline-block;
   }
-  
+
   .overlay {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
   }
-  
+
   #number {
     font-family: "Montserrat", sans-serif;
     color: white;
@@ -257,7 +257,7 @@ header {
   }
 
 #logo {
-    
+
     text-align: center;
 }
 
@@ -468,7 +468,7 @@ footer {
         order: -1;
         line-height: 22px;
     } 
-    
+
     #footer-info-two {
         order: -1;
         line-height: 22px;

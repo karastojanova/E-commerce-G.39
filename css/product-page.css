@@ -3,6 +3,8 @@ body {
 }
 
 /* HEADER */
+/* HEADER */
+/* HEADER */
 
 #hamburger{
     display: none;
@@ -257,8 +259,9 @@ header {
   }
 
 #logo {
-    
-    text-align: center;
+    margin-right: 180px;
+    font-family: 'Mauline', sans-serif;
+                                                
 }
 
 /* MAIN */

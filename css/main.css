@@ -5,11 +5,10 @@ body {
 /* HEADER */
 
 #hamburger{
-    display: none;
    width: 100px;
    position: absolute;
    padding-left: 25px;
-   padding-top: 8px;
+   padding-top: 30px;
 }
 #hamburgerimg{
     width: 25px;
@@ -48,6 +47,46 @@ body {
 .dropdown:hover .dropdown-content{
     display: block;
 }
+
+
+
+/*this is the mobile hamburger menu*/
+.phonedown{
+    position: relative;
+    display: inline-block;
+}
+.hamburgerbtn{
+    background-color: #dc9f8d;
+    color: #664a46;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.phonedown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    z-index: 1;
+}
+.phonedown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.phonedown-content a:hover {
+    background-color: #A2BBB7;
+}
+.phonedown:hover .phonedown-content{
+    display: block;
+}
+
 
 /* this is the cart dropdown menu CSS*/
 
@@ -147,9 +186,8 @@ body {
 #mobileicons{
     justify-self: center;
     display: none;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    width: 100%;
 
 
 }
@@ -172,20 +210,12 @@ body {
 /*media query for header
 Ask Evelin why the fixed position is so weird*/
 @media screen and (max-width: 400px){
-   #hamburger{
-    display: block;
-   }
-
-   header {
-    position: fixed;
-   }
-   
     #header-tabs{
         display: none;
     }
     #logo{
-        padding-left: 140px;
-        padding-right: 70px;
+        padding-left: 110px;
+        padding-right: 50px;
     }
     .webicons{
         display: none;
@@ -194,12 +224,20 @@ Ask Evelin why the fixed position is so weird*/
         display: flex;
         
     }
+
+    .categories-home{
+        grid-template-rows: repeat(2, 1fr);
+        
+    }
+    
 }
 
 @media screen and (min-width: 400px){
      .bottomicon{
         display: none;
     }
+    
+    
 }
 
 
@@ -214,7 +252,7 @@ li {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -264,20 +302,25 @@ header {
 /* Main*/
 
 .home-img{
-    width: 100vw;
+    width: 100%;
+}
+
+.categories-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1,5rem;
+    padding-top: 3rem;
 }
 
 .category-img {
     width: 70%;
     border-radius: 50%;
-    justify-self: center;
-    border: solid #A2BBB7;
 }
 
 .best-table-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-top: 20px;
+    padding-top: 3rem;
 }
 
 .best-table-container{
@@ -296,35 +339,6 @@ header {
 .best-table-img {
     width: 100%;
 }
-
-/* media for main home page*/
-
-@media screen and (max-width: 400px){
-    .home-img{
-        padding-top: 80px;
-    }
-
-    .categories-home{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-top: 10px;
-        gap: 10px;
-    } 
-}
-
-@media screen and (min-width: 400px){
-
-.categories-home{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding-top: 30px ;
-    padding-bottom: 20px;
-    justify-content: space-evenly;
-    
-}
-}
-
-
 
 /* FOOTER */
 

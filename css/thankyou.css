@@ -3,6 +3,7 @@ body {
 }
 
 /* HEADER */
+/* HEADER */
 
 #hamburger{
     display: none;
@@ -257,8 +258,33 @@ header {
   }
 
 #logo {
-    
-    text-align: center;
+    margin-right: 180px;
+    font-family: 'Mauline', sans-serif;
+                                                
+}
+
+
+@media screen and (min-width: 400px){
+    .container{
+        margin-left: 18%;
+        margin-right: 20%;
+        width: 60%;
+    }
+    .cart-button{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .cart-button{
+        font-size: 16px;
+    }
 }
 
 /* FOOTER */
@@ -302,19 +328,8 @@ footer {
         order: -1;
         line-height: 22px;
     } 
-    
-    #footer-info-two {
-        order: -1;
-        line-height: 22px;
-    }
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        border-radius: 50px;
-    }
 }
-
 /* MAIN */
 
 .cart-summary{

@@ -3,6 +3,7 @@ body {
 }
 
 /* HEADER */
+/* HEADER */
 
 #hamburger{
     display: none;
@@ -231,6 +232,12 @@ header {
 
 .material-symbols-outlined {
     margin-right: 1rem;
+}
+
+#logo {
+    margin-right: 180px;
+    font-family: 'Mauline', sans-serif;
+                                                
 }
 
 #spoppingbag {
