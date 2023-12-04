@@ -258,17 +258,8 @@ header {
   }
 
 #logo {
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
     margin-right: 180px;
-    font-family: 'Mauline', sans-serif;
-                                                
-=======
-    
-    text-align: center;
->>>>>>> 3d7652701a4bb111ad2b594e4f65dfb1530469b4
+    font-family: 'Mauline', sans-serif
 }
 
 
@@ -277,7 +268,6 @@ header {
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
->>>>>>> 5fa6ce18f7881169a285060cc5fc0d72fe9fa2d5
     text-align: center;
 }
 
