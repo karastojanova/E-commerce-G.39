@@ -353,10 +353,12 @@ footer {
     align-self: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 .happiness-mug-text{
     align-self: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 h2{
     text-align: center;
     margin-top: 0%;
@@ -364,6 +366,7 @@ h2{
     margin-bottom: 0%;
     font-family: 'Montserrat', sans-serif;
 }
+
 h3{
     text-align: center;
     padding-top: 2%;
@@ -373,6 +376,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
+
 .cart-button{
     background-color: #DC9F8D;
     padding: 2%;

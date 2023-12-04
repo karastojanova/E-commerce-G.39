@@ -321,10 +321,11 @@ footer {
 that repeat two times (2 by 2)*/
 
 /* I need help to make it so that the images dont jump down if the page is resized*/
+
 .container-product-photos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: px;
   padding-top: 5vw;
   padding-left: 30px;
 }
@@ -333,16 +334,27 @@ that repeat two times (2 by 2)*/
   width: 100%;
 }
 
-
-
 .fix-grid-pls {
   font-size: 0px;
 }
 
-main {
+.mainmainmain {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
 }
+
+@media screen and (max-width: 400px) {
+  .mainmainmain {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container-product-photos, .container-product-text {
+    width: 400px;
+ }
+}
+
+
 
 /* Here I'm starting to work with the right side of the page*/
 
@@ -466,7 +478,9 @@ margin to the left and right*/
 }
 
 /* Other products you may like section*/
-
+.otherpictures {
+  width: 30%;
+}
 
 .other-products-text {
   font-family: "Montserrat", sans-serif;
@@ -479,13 +493,8 @@ margin to the left and right*/
 .other-products-photos {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.other-products-photos img {
-  max-width: calc(57%);
-  height: auto;
-  margin-bottom: 10px;
-  padding: 30px;
-  padding-top: 0;
-}
+
