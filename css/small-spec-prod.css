@@ -1,6 +1,8 @@
 /* HEADER*/
 
-
+#logo{
+  font-family: 'Mauline', sans-serif;
+}
 .dropdown{
   position: relative;
   display: inline-block;

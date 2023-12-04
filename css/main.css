@@ -63,6 +63,7 @@ body {
     border: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8vw;
 
 }
 .phonedown-content {
@@ -110,7 +111,8 @@ body {
 .cartdown{
     position: relative;
     float: right; 
-    margin-right: 1rem;
+    margin-right: 0;
+    margin-left: 20vw;
 }
 .cartbtn{
     background-color: #dc9f8d;
@@ -144,7 +146,7 @@ body {
 
 .cart-button{
     background-color: #DC9F8D;
-    padding: 2%;
+    padding-right: 0;
     margin-bottom: 2%;
     border-radius: 30px;
     margin-left: 20%;
@@ -186,7 +188,7 @@ body {
 #mobileicons{
     justify-self: center;
     display: none;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 
 
@@ -214,8 +216,8 @@ Ask Evelin why the fixed position is so weird*/
         display: none;
     }
     #logo{
-        padding-left: 110px;
-        padding-right: 50px;
+        padding-left: 150px;
+        padding-right: 20px;
     }
     .webicons{
         display: none;
@@ -258,6 +260,8 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #dc9f8d;
+    position: fixed;
+    
 }
 
 .flex-container {
@@ -295,8 +299,9 @@ header {
   }
 
 #logo {
-    
+    font-family: 'Mauline', sans-serif;
     text-align: center;
+   
 }
 
 /* Main*/

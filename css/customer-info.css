@@ -202,7 +202,41 @@ Ask Evelin why the fixed position is so weird*/
     }
 }
 
+.phonedown{
+    position: relative;
+    display: inline-block;
+}
+.hamburgerbtn{
+    background-color: #dc9f8d;
+    color: #664a46;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 
+}
+.phonedown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    z-index: 1;
+}
+.phonedown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.phonedown-content a:hover {
+    background-color: #A2BBB7;
+}
+.phonedown:hover .phonedown-content{
+    display: block;
+}
 
 
 a {
@@ -220,6 +254,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #dc9f8d;
+    top: 0;
 }
 
 .flex-container {
@@ -257,7 +292,7 @@ header {
   }
 
 #logo {
-
+    font-family: 'Mauline', sans-serif;
     text-align: center;
 }
 
@@ -425,6 +460,11 @@ input {
         margin-bottom: 50px;
     }
 
+}
+
+
+main{
+    margin-top: 100px;
 }
 
 /* FOOTER */
