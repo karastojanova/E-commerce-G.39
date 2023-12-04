@@ -103,6 +103,13 @@ body {
     display: block;
 }
 
+@media screen and (max-width: 400px) {
+    .cartdown{
+        margin-left: 20vw;
+        
+    }
+    
+}
 .cart-button{
     background-color: #DC9F8D;
     padding: 2%;
@@ -194,6 +201,9 @@ Ask Evelin why the fixed position is so weird*/
         display: flex;
 
     }
+    .hamburgerbtn{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 400px){
@@ -214,6 +224,7 @@ Ask Evelin why the fixed position is so weird*/
     border: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    display: none;
 
 }
 .phonedown-content {

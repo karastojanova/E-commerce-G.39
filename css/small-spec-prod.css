@@ -188,4 +188,6 @@
     padding: 30px;
     padding-top: 0;
 }
-  
+.hamburgerbtn{
+  display: block;
+}
