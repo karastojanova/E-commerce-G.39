@@ -4,7 +4,16 @@ body {
 
 /* HEADER */
 
-
+#hamburger{
+    display: none;
+   width: 100px;
+   position: absolute;
+   padding-left: 25px;
+   padding-top: 8px;
+}
+#hamburgerimg{
+    width: 25px;
+}
 
 .dropdown{
     position: relative;
@@ -40,28 +49,88 @@ body {
     display: block;
 }
 
-@media screen and (min-width: 400px){
-    .container{
-        margin-left: 18%;
-        margin-right: 20%;
-        width: 60%;
-    }
-    .cart-button{
-        font-size: 20px;
-    }
+/* this is the cart dropdown menu CSS*/
+
+.smiley-dropdown{
+    width: 20vh;
+    padding: 15%;
+
 }
 
-@media screen and (max-width: 400px) {
-    .container{
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    .cart-button{
-        font-size: 16px;
-    }
+
+
+.cart-summary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    align-content: center;
+    column-width: auto;
+    gap: 5%;
 }
+
+.cartdown{
+    position: relative;
+    float: right; 
+    margin-right: 1rem;
+}
+.cartbtn{
+    background-color: #dc9f8d;
+    color: #664a46;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.cartdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    z-index: 1;
+    right: 0;
+}
+.cartdown-content a {
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.cartdown:hover .cartdown-content{
+    display: block;
+}
+
+.cart-button{
+    background-color: #DC9F8D;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    margin-left: 20%;
+    font-size: 16px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.price1{
+    padding-left: 15%; 
+  padding-top: 10%;
+  }
+  
+  #price2{
+    display: none;
+  padding-left: 15%; 
+  padding-top: 10%;
+  }
+  
+  #addeditem{
+    display: none;
+    width: 20vh;
+    padding: 15%;
+  }
 
 * {
     color: #664a46;
@@ -75,6 +144,67 @@ body {
     flex-direction: row;
 }
 
+#mobileicons{
+    justify-self: center;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+.webicons{
+    display: flex;
+}
+
+.bottomicon{
+    background-color:#DC9F8D;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 2.5rem;
+    padding-top: 10px;
+    width: 100%;
+    height: 2rem;
+
+}
+
+/*media query for header
+Ask Evelin why the fixed position is so weird*/
+@media screen and (max-width: 400px){
+   #hamburger{
+    display: block;
+   }
+
+   header {
+    position: fixed;
+   }
+   
+    #header-tabs{
+        display: none;
+    }
+    #logo{
+        padding-left: 140px;
+        padding-right: 70px;
+    }
+    .webicons{
+        display: none;
+    }
+    #mobileicons{
+        display: flex;
+        
+    }
+}
+
+@media screen and (min-width: 400px){
+     .bottomicon{
+        display: none;
+    }
+}
+
+
+
+
 a {
     text-decoration: none;
 }
@@ -84,21 +214,26 @@ li {
 }
 
 header {
-    display: flex;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
     background-color: #dc9f8d;
-    width: 100vw;
 }
 
 .flex-container {
     display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 0;
 }
 
 .material-symbols-outlined {
     margin-right: 1rem;
 }
 
+<<<<<<< HEAD
 #logo {
     margin-right: 180px;
     font-family: 'Mauline', sans-serif;
@@ -106,6 +241,8 @@ header {
 }
 
 
+=======
+>>>>>>> 3d7652701a4bb111ad2b594e4f65dfb1530469b4
 #spoppingbag {
     position: relative;
     display: inline-block;
@@ -128,6 +265,11 @@ header {
     font-size: 0.6rem;
     font-weight: bold;
   }
+
+#logo {
+    
+    text-align: center;
+}
 
 /* FOOTER */
 
