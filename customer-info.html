@@ -16,68 +16,111 @@
 </head>
 
 <body>
-    <header>
-      <ul id="header-tabs">
+  <header>
+    <div id="hamburger">
+      <img id="hamburgerimg" src="img/hamburgermenu.png" alt="hamburger menu icon">
+    </div>
 
-        <li class="dropdown">
-          <button class="dropbtn"> Products</button>
-          <div class ="dropdown-content">
-            <a href="product-page.html">All Products</a>
-            <a href="#">Mugs</a>
-            <a href="#">Bowls</a>
-            <a href="#">Plates</a>
-            <a href="#">Decorative</a>
-          </div>
-        </li>
+
+    <ul id="header-tabs">
+
+      <li class="dropdown">
+        <button class="dropbtn"> Products</button>
+        <div class ="dropdown-content">
+          <a href="product-page.html">All Products</a>
+          <a href="#">Mugs</a>
+          <a href="#">Bowls</a>
+          <a href="#">Plates</a>
+          <a href="#">Decorative</a>
+        </div>
+      </li>
+      
+      <a href="#">
+        <li>Workshops</li>
+      </a>
+
+      <a href="#">
+        <li>Contact</li>
+      </a>
+
+      <a href="#">
+        <li>About us</li>
+      </a>
+    </ul>
+
+    <div id="logo-wrapper">
+      <a href="index.html">
+         <h1 id="logo">GLINA</h1>
+      </a>
+    </div>
     
-            <a href="#">
-              <li>Workshops</li>
-            </a>
-    
-            <a href="#">
-              <li>Contact</li>
-            </a>
-    
-            <a href="#">
-              <li>About us</li>
-            </a>
-          </ul>
-          
-          <a href="index.html">
-            <h1 id="logo">GLINA</h1>
-          </a>
-          
-          <div class="flex-container">
-            <div>
-               <span class="material-symbols-outlined">
-              search
-               </span>
-            </div>
-    
-            <div>
-              <span class="material-symbols-outlined">
-                person
-              </span>
-            </div>
-    
-    
-            <div>
-              <span class="material-symbols-outlined">
-                  favorite
-              </span>
-            </div>
-    
-    
-            <div id="spoppingbag">
-              <a href="cartsummary.html">
-              <span class="material-symbols-outlined"> shopping_bag </span>
-              <div class="overlay">
-                <p id="number">2</p>
-              </a>
+    <div class="flex-container">
+      <div class="webicons">
+        
+        <div>
+         <span class="material-symbols-outlined">
+        search
+         </span>
+        </div>
+
+        <div>
+          <span class="material-symbols-outlined">
+          person
+          </span>
+        </div>
+
+
+        <div>
+         <span class="material-symbols-outlined">
+            favorite
+          </span>
+        </div>
+
+      </div>
+      
+
+
+     <div class="cartdown">
+      <button class="cartbtn">
+        <a href="cartsummary.html">
+        <span class="material-symbols-outlined">
+          shopping_bag </span>
+        </a>
+      </button>
+        <div class="overlay">
+          <p id="number">1</p>
+        </div>
+        <div class ="cartdown-content">
+          <div class="cart-summary">
+            
+             <img class="smiley-dropdown" src="img/smileymug.heic.webp" alt="mug with smiley faces"> 
+            
+             
+            
+             <div class="price1"> 
+                <p>SMILEY MUG</p>
+                <p>190kr</p> 
+                <p>x1</p>
+              </div>
+     
+           
+              <img id="addeditem" src="img/smileyplate.webp" alt="smiley plate">
+            
+              <div id="price2">
+                <p>SMILEY PLATE</p>
+                <p>200kr</p>
+                <p>x1</p>
               </div>
             </div>
-          </div>
-    </header>
+            <a href="cartsummary.html">
+              <button class="cart-button">To cart</button>
+            </a>
+        </div>   
+        </div>
+      </div>
+    </div>
+
+  </header>
 
     <main>
         <div class="main-container">
@@ -150,6 +193,27 @@
         </div>
 
     </main>
+
+    <div id="mobileicons">
+      <div class="bottomicon">
+         <span class="material-symbols-outlined">
+        search
+         </span>
+      </div>
+
+      <div class="bottomicon">
+        <span class="material-symbols-outlined">
+          person
+        </span>
+      </div>
+
+
+      <div class="bottomicon">
+        <span class="material-symbols-outlined">
+            favorite
+        </span>
+      </div>
+    </div>
     
     <footer>
         <ul id="footer-info-one">
