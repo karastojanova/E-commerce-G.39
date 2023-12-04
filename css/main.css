@@ -226,11 +226,6 @@ Ask Evelin why the fixed position is so weird*/
         display: flex;
         
     }
-
-    .categories-home{
-        grid-template-rows: repeat(2, 1fr);
-        
-    }
     
 }
 
@@ -307,7 +302,6 @@ header {
 /* Main*/
 
 
-
 .home-img{
     width: 100%;
 }
@@ -317,14 +311,12 @@ header {
     }
 }
 
-.categories-home {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1,5rem;
-    padding-top: 3rem;
+.categories-home{
+    padding-top: 1rem;
 }
 
 .category-img {
+    border: solid #A2BBB7;
     width: 70%;
     border-radius: 50%;
 }
@@ -332,7 +324,7 @@ header {
 .best-table-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .best-table-container{
@@ -351,6 +343,21 @@ header {
 .best-table-img {
     width: 100%;
 }
+
+@media screen and (max-width: 400px){
+.categories-home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}}
+
+@media screen and (min-width: 400px){
+    .categories-home{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+ }}
+
+
 
 /* FOOTER */
 
