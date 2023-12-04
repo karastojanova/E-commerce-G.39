@@ -65,6 +65,7 @@ body {
      cursor: pointer;
      font-family: 'Montserrat', sans-serif;
      margin-bottom: 8vw;
+     display: none;
  
 }
 .phonedown-content {
@@ -98,7 +99,13 @@ body {
  
 }
  
- 
+@media screen and (max-width: 400px) {
+     .cartdown{
+         margin-left: 20vw;
+         
+     }
+     
+ } 
  
 .cart-summary{
      display: grid;
@@ -113,7 +120,7 @@ body {
      position: relative;
      float: right; 
      margin-right: 1rem;
-     margin-left: 20vw;
+     
 }
 .cartbtn{
      background-color: #dc9f8d;
@@ -231,6 +238,9 @@ body {
          grid-template-rows: repeat(2, 1fr);
          
      }
+     .hamburgerbtn{
+          display: block;
+     }
      
     }
  
@@ -274,6 +284,7 @@ header {
  
 .material-symbols-outlined {
      margin-right: 1rem;
+     
 }
  
 #spoppingbag {

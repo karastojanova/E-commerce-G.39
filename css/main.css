@@ -64,6 +64,7 @@ body {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 8vw;
+    display:none;
 
 }
 .phonedown-content {
@@ -112,8 +113,17 @@ body {
     position: relative;
     float: right; 
     margin-right: 0;
-    margin-left: 20vw;
+    
 }
+
+@media screen and (max-width: 400px) {
+    .cartdown{
+        margin-left: 20vw;
+        
+    }
+    
+}
+
 .cartbtn{
     background-color: #dc9f8d;
     color: #664a46;
@@ -231,7 +241,9 @@ Ask Evelin why the fixed position is so weird*/
         grid-template-rows: repeat(2, 1fr);
         
     }
-    
+    .hamburgerbtn{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 400px){
