@@ -3,7 +3,10 @@ body {
 }
 
 /* HEADER */
+<<<<<<< HEAD
 /* HEADER */
+=======
+>>>>>>> 5fa6ce18f7881169a285060cc5fc0d72fe9fa2d5
 
 #hamburger{
   display: none;
@@ -258,8 +261,19 @@ header {
 }
 
 #logo {
+<<<<<<< HEAD
   
   text-align: center;
+=======
+<<<<<<< HEAD
+  margin-right: 180px;
+  font-family: 'Mauline', sans-serif;
+                                                
+=======
+  
+  text-align: center;
+>>>>>>> 3d7652701a4bb111ad2b594e4f65dfb1530469b4
+>>>>>>> 5fa6ce18f7881169a285060cc5fc0d72fe9fa2d5
 }
 /* FOOTER */
 
@@ -331,6 +345,8 @@ that repeat two times (2 by 2)*/
 .smiley-plates {
   width: 100%;
 }
+
+
 
 .fix-grid-pls {
   font-size: 0px;

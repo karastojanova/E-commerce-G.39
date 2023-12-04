@@ -17,6 +17,17 @@ body {
     width: 25px;
 }
 
+#hamburger{
+    display: none;
+   width: 100px;
+   position: absolute;
+   padding-left: 25px;
+   padding-top: 8px;
+}
+#hamburgerimg{
+    width: 25px;
+}
+
 .dropdown{
     position: relative;
     display: inline-block;
@@ -259,8 +270,19 @@ header {
   }
 
 #logo {
+<<<<<<< HEAD
     
     text-align: center;
+=======
+<<<<<<< HEAD
+    margin-right: 180px;
+    font-family: 'Mauline', sans-serif;
+                                                
+=======
+    
+    text-align: center;
+>>>>>>> 3d7652701a4bb111ad2b594e4f65dfb1530469b4
+>>>>>>> 5fa6ce18f7881169a285060cc5fc0d72fe9fa2d5
 }
 /* MAIN */
 
