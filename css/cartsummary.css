@@ -3,6 +3,7 @@ body {
 }
 
 /* HEADER */
+/* HEADER */
 
 #hamburger{
     display: none;
@@ -239,7 +240,10 @@ header {
                                                 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 023690bd72a9779d6b05111b1cd093eeb365f01d
 #spoppingbag {
     position: relative;
     display: inline-block;

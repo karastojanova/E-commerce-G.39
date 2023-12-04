@@ -19,6 +19,11 @@
   <body>
 
     <header>
+      <div id="hamburger">
+        <img id="hamburgerimg" src="img/hamburgermenu.png" alt="hamburger menu icon">
+      </div>
+
+
       <ul id="header-tabs">
 
         <li class="dropdown">
@@ -31,7 +36,7 @@
             <a href="#">Decorative</a>
           </div>
         </li>
-
+        
         <a href="#">
           <li>Workshops</li>
         </a>
@@ -44,42 +49,79 @@
           <li>About us</li>
         </a>
       </ul>
-      
-      <a href="index.html">
-        <h1 id="logo">GLINA</h1>
-      </a>
+
+      <div id="logo-wrapper">
+        <a href="index.html">
+           <h1 id="logo">GLINA</h1>
+        </a>
+      </div>
       
       <div class="flex-container">
-        <div>
+        <div class="webicons">
+          
+          <div>
            <span class="material-symbols-outlined">
           search
            </span>
-        </div>
+          </div>
 
-        <div>
-          <span class="material-symbols-outlined">
+          <div>
+            <span class="material-symbols-outlined">
             person
-          </span>
-        </div>
+            </span>
+          </div>
 
 
-        <div>
-          <span class="material-symbols-outlined">
+          <div>
+           <span class="material-symbols-outlined">
               favorite
-          </span>
+            </span>
+          </div>
+
         </div>
+        
 
 
-        <div id="spoppingbag">
+       <div class="cartdown">
+        <button class="cartbtn">
           <a href="cartsummary.html">
-          <span class="material-symbols-outlined"> shopping_bag </span>
+          <span class="material-symbols-outlined">
+            shopping_bag </span>
+          </a>
+        </button>
           <div class="overlay">
-            <p id="number">2</p>
-            </a>
+            <p id="number">1</p>
+          </div>
+          <div class ="cartdown-content">
+            <div class="cart-summary">
+              
+               <img class="smiley-dropdown" src="img/smileymug.heic.webp" alt="mug with smiley faces"> 
+              
+               
+              
+               <div class="price1"> 
+                  <p>SMILEY MUG</p>
+                  <p>190kr</p> 
+                  <p>x1</p>
+                </div>
+       
+             
+                <img id="addeditem" src="img/smileyplate.webp" alt="smiley plate">
+              
+                <div id="price2">
+                  <p>SMILEY PLATE</p>
+                  <p>200kr</p>
+                  <p>x1</p>
+                </div>
+              </div>
+              <a href="cartsummary.html">
+                <button class="cart-button">To cart</button>
+              </a>
+          </div>   
           </div>
         </div>
       </div>
-    
+
     </header>
 
     <main>
@@ -117,6 +159,27 @@
             </div>
         </div>
     </main>
+
+    <div id="mobileicons">
+      <div class="bottomicon">
+         <span class="material-symbols-outlined">
+        search
+         </span>
+      </div>
+
+      <div class="bottomicon">
+        <span class="material-symbols-outlined">
+          person
+        </span>
+      </div>
+
+
+      <div class="bottomicon">
+        <span class="material-symbols-outlined">
+            favorite
+        </span>
+      </div>
+    </div>
     
 
     <footer>

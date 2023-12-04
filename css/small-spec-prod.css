@@ -1,4 +1,5 @@
 /* HEADER*/
+/* HEADER */
 
 #logo{
   font-family: 'Mauline', sans-serif;
@@ -204,8 +205,6 @@ Ask Evelin why the fixed position is so weird*/
 }
 
 
-
-
 a {
   text-decoration: none;
 }
@@ -263,6 +262,63 @@ header {
 }
 
 
+
+
+a {
+  text-decoration: none;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+header {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dc9f8d;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-left: 0;
+}
+
+.material-symbols-outlined {
+  margin-right: 1rem;
+}
+
+#spoppingbag {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#number {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: #A2BBB7;
+  display: inline;
+  border-radius: 100px;
+  padding: 3px;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+#logo {
+  
+  text-align: center;
+}
 /* The photos */
 
 .container-product-photos {

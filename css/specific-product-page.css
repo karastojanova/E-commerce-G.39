@@ -3,6 +3,7 @@ body {
 }
 
 /* HEADER */
+/* HEADER */
 
 #hamburger{
   display: none;
@@ -257,11 +258,16 @@ header {
 }
 
 #logo {
+<<<<<<< HEAD
   margin-right: 180px;
   font-family: 'Mauline', sans-serif;
                                                 
+=======
+  text-align: center;
+  margin-right: 180px;
+  font-family: 'Mauline', sans-serif;
+>>>>>>> 023690bd72a9779d6b05111b1cd093eeb365f01d
 }
-
 /* FOOTER */
 
 footer {
