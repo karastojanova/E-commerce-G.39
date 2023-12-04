@@ -5,7 +5,6 @@ body {
 /* HEADER */
 
 
-
 .dropdown{
     position: relative;
     display: inline-block;
@@ -40,29 +39,6 @@ body {
     display: block;
 }
 
-@media screen and (min-width: 400px){
-    .container{
-        margin-left: 18%;
-        margin-right: 20%;
-        width: 60%;
-    }
-    .cart-button{
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .container{
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    .cart-button{
-        font-size: 16px;
-    }
-}
-
 * {
     color: #664a46;
 }
@@ -88,7 +64,6 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #dc9f8d;
-    width: 100vw;
 }
 
 .flex-container {
@@ -196,12 +171,11 @@ footer {
 .container{
     background-color: #F5E9DF;
     margin-top: 5%;
-    
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 2%;
-
-    
 }
-
+/*ask someone how to center those button ishes*/
 .product-img{
     width: 50%;
     padding-left: 50%;
@@ -238,6 +212,7 @@ h3{
     margin-bottom: 2%;
     border-radius: 30px;
     margin-left: 20%;
+    font-size: 20px;
     width: 60%;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;

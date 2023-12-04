@@ -147,9 +147,8 @@ body {
 #mobileicons{
     justify-self: center;
     display: none;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    width: 100%;
 
 
 }
@@ -194,20 +193,14 @@ Ask Evelin why the fixed position is so weird*/
         display: flex;
         
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 9ec7b9e8b4457234014557e61995afdf88d152a9
 }
 
 @media screen and (min-width: 400px){
      .bottomicon{
         display: none;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 9ec7b9e8b4457234014557e61995afdf88d152a9
 }
 
 
