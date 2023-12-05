@@ -322,8 +322,6 @@ header {
   
 }
 
-/* Main*/
-
 
 /* FOOTER */
 
@@ -422,6 +420,10 @@ that repeat two times (2 by 2)*/
 
 /* I need help to make it so that the images dont jump down if the page is resized*/
 
+main {
+   padding-top: 60px;
+}
+
 .container-product-photos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -452,7 +454,6 @@ that repeat two times (2 by 2)*/
    display: grid;
    grid-template-columns: 1fr 1fr;
    padding-left: 0;
-   margin-top: 68px;
   }
 
   .smiley-plates {
@@ -502,14 +503,13 @@ margin to the left and right*/
 }
 
 
-#size-button {
+.size-button {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   margin-top: 3vh;
   padding: 2vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  width: 100%;
+  padding-left: 7vh;
+  padding-right: 7vh;
   text-align: center;
   border-radius: 50px;
   background-color: #f5e9df;
@@ -521,11 +521,11 @@ margin to the left and right*/
       text-align: center;
    }
 
-   #size-button {
-      width: 20%;
-      padding: 0.8vh;
+   .size-button {
+      width: 30%;
+      padding: 0.5vh;
       padding-left: 3vh;
-      padding-right: 3vh;
+      padding-right: 5.2vh;
       margin-top: 1vh;
       font-size: 0.8rem;
    }
@@ -650,6 +650,9 @@ margin to the left and right*/
 @media screen and (max-width: 400px) {
    .other-products-photos {
       display: block;
+      padding-left: 0;
+      padding-right: 0%;
+      text-align: center;
    }
 
    .other-products-text {
@@ -659,7 +662,6 @@ margin to the left and right*/
    .other-products-photos img {
       width: 30%;
       padding: 0px;
-      text-align: center;
    }
 }
 
