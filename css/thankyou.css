@@ -3,7 +3,6 @@ body {
 }
 
 /* HEADER */
-/* HEADER */
 
 #hamburger{
     width: 100px;
@@ -236,11 +235,7 @@ body {
          display: flex;
          
      }
- 
-     .categories-home{
-         grid-template-rows: repeat(2, 1fr);
          
-     }
      .hamburgerbtn{
         display: block;
      }
@@ -251,7 +246,6 @@ body {
       .bottomicon{
          display: none;
      }
-     
      
  }
  
