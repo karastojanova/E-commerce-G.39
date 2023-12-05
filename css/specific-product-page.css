@@ -462,7 +462,6 @@ that repeat two times (2 by 2)*/
 .container-product-photos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: px;
   padding-top: 5vw;
   padding-left: 30px;
 }
@@ -486,9 +485,20 @@ that repeat two times (2 by 2)*/
     grid-template-columns: 1fr;
   }
 
-  .container-product-photos, .container-product-text {
-    width: 400px;
- }
+  .container-product-photos {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding-left: 0;
+   margin-top: 68px;
+  }
+
+  .smiley-plates {
+   width: 100%;
+  }
+
+  #plate-1, #plate-3 {
+   text-align: end;
+  }
 }
 
 
@@ -543,6 +553,21 @@ margin to the left and right*/
   border-color: beige;
 }
 
+@media screen and (max-width: 400px) {
+   .sizes-box {
+      text-align: center;
+   }
+
+   #size-button {
+      width: 20%;
+      padding: 0.8vh;
+      padding-left: 3vh;
+      padding-right: 3vh;
+      margin-top: 1vh;
+      font-size: 0.8rem;
+   }
+}
+
 /* Styling the Add to cart button*/
 
 
@@ -553,8 +578,6 @@ margin to the left and right*/
   text-align: center;
   border-radius: 50px;
   background-color: #A2BBB7;
-  display: flex;
-  justify-content: space-around;
   margin-top: 5vh;
   margin-left: 30px;
   margin-right: 30px;
@@ -563,6 +586,15 @@ margin to the left and right*/
   color: white;
   padding: 2vh; 
   transition: width 0.5s, height 0.5s;
+}
+
+@media screen and (max-width: 400px) {
+   #change-button {
+      padding: 1.2vh;
+      margin: 0px;
+      margin-top: 3vh;
+      margin-left: 15px;
+   }
 }
 
 /* ANIMATING add-to-cart-button (change-button) */
@@ -614,6 +646,16 @@ margin to the left and right*/
   color: #858585;
 }
 
+@media screen and (max-width: 400px) {
+   .description-container {
+      display: block;
+   }
+
+   .description-text {
+      margin-top: 3vh;
+   }
+}
+
 /* Other products you may like section*/
 .otherpictures {
   width: 30%;
@@ -642,5 +684,19 @@ margin to the left and right*/
   padding-top: 0;
 }
 
+@media screen and (max-width: 400px) {
+   .other-products-photos {
+      display: block;
+   }
 
+   .other-products-text {
+      margin-top: 5vh;
+   }
+
+   .other-products-photos img {
+      width: 30%;
+      padding: 0px;
+      text-align: center;
+   }
+}
 
