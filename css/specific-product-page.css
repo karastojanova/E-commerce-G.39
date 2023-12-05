@@ -324,44 +324,7 @@ header {
 
 /* Main*/
 
-.home-img{
-   width: 100%;
-}
 
-.categories-home {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   gap: 1,5rem;
-   padding-top: 3rem;
-}
-
-.category-img {
-   width: 70%;
-   border-radius: 50%;
-}
-
-.best-table-grid {
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   padding-top: 3rem;
-}
-
-.best-table-container{
-   position: relative;
-   text-align: right;
-}
-
-.best-table-text{
-   font-family: 'Montserrat', sans-serif;
-   position: absolute;
-   color: white;
-   padding-top: 10px;
-   padding-left: 10px;
-}
-
-.best-table-img {
-   width: 100%;
-}
 /* FOOTER */
 
 footer {
