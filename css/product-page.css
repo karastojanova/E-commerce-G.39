@@ -317,6 +317,10 @@ header {
  
 /* MAIN */
 
+main {
+     padding-top: 80px;
+  }
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 80px;
@@ -352,17 +356,19 @@ figcaption {
 }
 
 .hearts {
+    width: 150px;
     position: relative;
     overflow: visible;
     top: -77.3%;
-    left: 33%;
+    left: 63%;
 }
 
 .bag {
+    width: 150px;
     position: relative;
     overflow: visible;
     top: -77%;
-    left: 33%;
+    left: 63%;
 }
 
 @media screen and (max-width: 400px) {
@@ -393,8 +399,7 @@ figcaption {
     
 
     h2 {
-        margin-top: 160px;
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 }
 
