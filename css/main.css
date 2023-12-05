@@ -328,6 +328,7 @@ header {
     border: solid #A2BBB7;
     width: 70%;
     border-radius: 50%;
+    justify-self: center;
 }
 
 .best-table-grid {
