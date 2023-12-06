@@ -336,12 +336,10 @@ h2 {
 .pictures-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
 }
 
 figcaption {
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
     padding-left: 60px;
     font-size: 1.4rem;
 }
@@ -360,7 +358,7 @@ figcaption {
     position: relative;
     overflow: visible;
     top: -77.3%;
-    left: 63%;
+    left: 78%;
 }
 
 .bag {
@@ -368,7 +366,7 @@ figcaption {
     position: relative;
     overflow: visible;
     top: -77%;
-    left: 63%;
+    left: 78%;
 }
 
 @media screen and (max-width: 400px) {
