@@ -251,12 +251,7 @@ header{
       .bottomicon{
          display: none;
      }
-     
-     
- }
- 
- 
- 
+ } 
  
  a {
      text-decoration: none;
@@ -319,7 +314,7 @@ header{
  
 
 
-/* Left side MAIN */
+/* MAIN */
 
 .main-container {
     display: grid;
@@ -330,6 +325,8 @@ header{
     margin: 0;
     margin-top: 30px;
 }
+
+/* Left side MAIN */
 
 label, input {
     font-weight: bold;
@@ -422,7 +419,6 @@ input {
 
 .prodpic {
     width: 35%;
-    right: -60%;
 }
 
 .img-cont {
@@ -448,11 +444,6 @@ input {
 }
 
 @media screen and (max-width: 400px) {
-    .picture {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     .prodpic {
         position: static;
         width: 70%;
@@ -482,7 +473,6 @@ input {
     }
 
 }
-
 
 main{
     margin-top: 100px;

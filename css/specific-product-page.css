@@ -632,14 +632,12 @@ margin to the left and right*/
 }
 
 .other-products-photos {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.other-products-photos img {
-  max-width: calc(57%);
+.other-products-photos {
   height: auto;
   margin-bottom: 10px;
   padding: 30px;
@@ -648,7 +646,6 @@ margin to the left and right*/
 
 @media screen and (max-width: 400px) {
    .other-products-photos {
-      display: block;
       padding-left: 0;
       padding-right: 0%;
       text-align: center;
@@ -658,8 +655,8 @@ margin to the left and right*/
       margin-top: 5vh;
    }
 
-   .other-products-photos img {
-      width: 30%;
+   .other-products-photos {
+      width: 100%;
       padding: 0px;
    }
 }

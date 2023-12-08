@@ -102,7 +102,6 @@ body {
 @media screen and (max-width: 400px) {
      .cartdown{
          margin-left: 20vw;
-         
      }
      
  } 
@@ -272,7 +271,7 @@ header {
      background-color: #dc9f8d;
      position: fixed;
      top: 0;
-     
+     z-index: 2;
 }
  
 .flex-container {
@@ -317,6 +316,10 @@ header {
  
 /* MAIN */
 
+main {
+     padding-top: 80px;
+  }
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 80px;
@@ -332,12 +335,10 @@ h2 {
 .pictures-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
 }
 
 figcaption {
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
     padding-left: 60px;
     font-size: 1.4rem;
 }
@@ -352,17 +353,19 @@ figcaption {
 }
 
 .hearts {
+    width: 150px;
     position: relative;
     overflow: visible;
     top: -77.3%;
-    left: 33%;
+    left: 78%;
 }
 
 .bag {
+    width: 150px;
     position: relative;
     overflow: visible;
     top: -77%;
-    left: 33%;
+    left: 78%;
 }
 
 @media screen and (max-width: 400px) {
@@ -393,8 +396,7 @@ figcaption {
     
 
     h2 {
-        margin-top: 160px;
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 }
 
